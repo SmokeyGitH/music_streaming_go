@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synchronized Music Streaming App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Music Streaming App</h1>
+
+        <!-- List of music files -->
+        <ul id="music-list">
+            <li>Loading music...</li>
+        </ul>
+
+        <!-- Now playing section -->
+        <div id="now-playing" class="hidden">
+            <h3>Now Playing: <span id="current-song"></span></h3>
+            <audio id="audio-player" controls></audio>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
